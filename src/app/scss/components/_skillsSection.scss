@@ -1,0 +1,35 @@
+.skills__section {
+  padding-top: 100px;
+  @include for-phone {
+    padding-top: 70px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .skills__wrapper {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .skills__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .skills__item {
+        padding: 20px;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        svg {
+          // fill: $icon-color;
+        }
+        p {
+          color: $blue-color;
+          font-size: 1.25rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

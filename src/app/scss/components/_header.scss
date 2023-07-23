@@ -1,0 +1,199 @@
+header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  transition: all 0.2s;
+  @include for-phone {
+    padding: 0 16px;
+  }
+  &.sticky {
+    background-color: $white-color;
+    height: 65px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .header__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+      display: flex;
+      align-items: center;
+      justify-self: center;
+      a {
+        color: $icon-color;
+        padding-left: 12px;
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: 700;
+      }
+    }
+    nav {
+      display: flex;
+      gap: 10px;
+      @include for-tablet {
+        display: none;
+      }
+
+      @include for-phone {
+        display: none;
+      }
+      a {
+        position: relative;
+        text-decoration: none;
+        padding: 12px 20px;
+        color: #333;
+        font-size: 1em;
+        font-weight: 500;
+        &.active {
+          transition: 0.2s ease-in-out;
+          background-color: $icon-color;
+          color: $white-color;
+          animation: bubble 3s infinite;
+        }
+      }
+    }
+
+    .menu__btn {
+      top: 1rem;
+      right: 0;
+      position: absolute;
+      height: 20px;
+      width: 28px;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+      @include for-desktop {
+        display: none;
+      }
+
+      &-burger {
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+        width: 28px;
+        height: 3px;
+        background-color: $icon-color;
+        &::before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 8px;
+          width: 20px;
+          height: 3px;
+          background-color: $icon-color;
+          transition: all 0.5s ease-in-out;
+        }
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          right: 0;
+          top: -8px;
+          width: 28px;
+          height: 3px;
+          background-color: $icon-color;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+
+    .nav__input:checked ~ .menu__btn {
+      display: none;
+    }
+
+    .nav__input:checked ~ .menu__mobile {
+      left: 0;
+      transform: translateX(0);
+      opacity: 0.9;
+    }
+
+    .menu__mobile {
+      position: fixed;
+      z-index: 999999;
+      top: 0;
+      left: -100%;
+      bottom: 0;
+      background-color: $icon-color;
+      width: 100%;
+      padding: 8px 8px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      transform: translateX(-100%);
+      opacity: 0;
+      transition: all 0.7s;
+      .delete__icon {
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+      }
+      &-list {
+        padding: 24px 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      li {
+        padding: 15px 0;
+      }
+      .menu__mobile-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        font-weight: 500;
+        color: $white-color;
+        transition: all 0.2s;
+        &:hover {
+          color: $primary-color;
+          transform: scale(1.1);
+        }
+      }
+
+      @include for-desktop {
+        display: none;
+      }
+
+      @include for-tablet {
+        display: flex;
+      }
+
+      @include for-phone {
+        display: flex;
+      }
+    }
+
+    .mobile__icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mobile__icon-item {
+      padding-right: 24px;
+    }
+  }
+}
+
+@keyframes bubble {
+  0% {
+    border-radius: 64% 36% 65% 35% / 31% 44% 56% 69%;
+  }
+  50% {
+    border-radius: 40% 60% 35% 65% / 52% 44% 56% 48%;
+  }
+  100% {
+    border-radius: 64% 36% 65% 35% / 31% 44% 56% 69%;
+  }
+}

@@ -1,0 +1,75 @@
+.experience__section {
+  padding-top: 100px;
+  @include for-phone {
+    padding-top: 70px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .experience__section-wrapper {
+    .experience_tab-wrapper {
+      padding-top: 40px;
+      .experience__tab {
+        padding-bottom: 20px;
+        &-head {
+          padding-bottom: 8px;
+          display: block;
+          align-items: center;
+          .experience__time {
+            p {
+              font-size: 1.5rem;
+              font-weight: 600;
+              padding-right: 16px;
+            }
+          }
+          .experience__company {
+            p {
+              font-size: 1.5rem;
+              font-weight: 600;
+              color: $blue-color;
+            }
+          }
+        }
+        &-body {
+          padding: 20px;
+          border-left: 4px solid $blue-color;
+          .experience__position {
+            p {
+              font-size: 1.5rem;
+              font-weight: 600;
+              line-height: 2;
+              color: $icon-color;
+            }
+          }
+          .experience__content {
+            padding-bottom: 8px;
+            p {
+              font-size: 1rem;
+              color: $grey-color;
+            }
+          }
+          .experience__technical {
+            display: flex;
+            align-items: center;
+            &-tech {
+              p {
+                font-size: 1rem;
+                font-weight: 500;
+                padding-right: 8px;
+                line-height: 2;
+                letter-spacing: 1.5;
+                span {
+                  font-size: 0.75rem;
+                  display: inline-block;
+                  color: $white-color;
+                  padding: 2px 8px;
+                  background-color: $icon-color;
+                  border-radius: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

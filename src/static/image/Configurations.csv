@@ -1,0 +1,179 @@
+id,code,value,inserted_at,updated_at
+1,onpoint.cs_call.cancellation_reason,"[""Not able to contact"",""Customers change their personal info"",""Customers want to change order info"",""Customer change their mind and don't want to buy""]",2020-10-05 07:02:56,2020-10-05 07:02:56
+2,onpoint.default_delivery_config,"{
+  ""ghn"": {
+    ""pickup_delivery_id"": 1,
+    ""pickup_options"": { ""delivery_platform"": ""ghn"", ""ghn_service_type_id"": 2 }
+  },
+  ""ghtk"": {
+    ""pickup_delivery_id"": 3,
+    ""pickup_options"": { ""delivery_platform"": ""ghtk"" }
+  },
+  ""ahamove"": {
+    ""pickup_delivery_id"": 2,
+    ""pickup_options"": {""delivery_platform"": ""ahamove"", ""ahamove_service_id"": ""SGN-BIKE"", ""ahamove_payment_method"": ""CASH""}
+  },
+""octopos"": {
+    ""pickup_delivery_id"": 4,
+    ""pickup_options"": {""delivery_platform"": ""octopos""}
+  },
+""virtual_delivery"": {""pickup_delivery_id"": 21, ""pickup_options"": {}}
+}",2020-11-02 09:22:40,2020-11-02 09:22:40
+3,onpoint.pending_order_notification.receivers,"{
+   ""toan.ha@onpoint.vn"":[
+      ""all_channels""
+   ]
+}",2020-11-18 05:05:14,2020-11-18 05:05:14
+4,onpoint.compensate.chaged_fee_teams,"[""CS"", ""System"", ""KAM"", ""3PL - GHN FFM"", ""3PL - KPL""]",2020-11-26 10:16:58,2020-11-26 10:16:58
+5,onpoint.crm.ticket_root_causes,"[""Brand cung cấp thông tin không chính xác"", ""Do cảm nhận của khách hàng"", ""Chương trình khuyến mãi hết quà tặng"", ""CS tư vấn thông tin không chính xác"", ""Đơn hàng không đủ điều kiện nhận quà"", ""Đơn vị vận chuyển lấy/ tráo hàng"", ""Hết hàng thực tế"", ""KAM/MER set up thông tin không chính xác"", ""Khách hàng gian lận"", ""Khách tìm hiểu thông tin không chính xác"", ""Lỗi Fulfilment by Onpoint"", ""Lỗi Fulfilment by Platform"", ""Lỗi hệ thống Platform"", ""Lỗi hệ thống Vin"", ""Lỗi kiểm tra sản phẩm từ khâu Inbound"", ""Lỗi listing sản phẩm khi tạo bundle"", ""Lỗi Mapping/ Channel Link"", ""Lỗi QC từ khâu Inbound"", ""Lỗi quá trình OP bảo quản không đảm bảo điều kiện"", ""Lỗi thao tác khách hàng"", ""Lỗi thao tác tạo đơn hàng"", ""Lỗi tool/ flexi combo của Platform"", ""Lỗi từ nhà vận chuyển"", ""Lỗi xác nhận đơn hàng"", ""Onpoint đăng tải thông tin không chính xác"", ""Onpoint xử lí đơn hàng chậm"", ""Sản phẩm hỏng/ hết hạn sử dụng"", ""Sản phẩm set sai giá từ Onpoint"", ""Sản phẩm set sai giá từ Platform"", ""Sản phẩm thiếu phụ kiện"", ""Bưu tá không tới lấy hàng"", ""Thao tác set sai giá từ Onpoint"", ""Hủy có chủ đích do khách hàng gian lận"", ""Thông tin vận chuyển điền không chính xác tại platform"", ""Khách hàng thao tác không chính xác"", ""Khách hàng không phù hợp để sử dụng"", ""Lỗi Fulfilment by Keppel"", ""Không liên hệ được khách hàng"", ""Lỗi khâu đóng gói từ Brand"", ""Lỗi System cài đặt""]",2020-12-21 02:54:17,2020-12-21 02:54:17
+6,onpoint.pricing.change_selling_price_reasons,"[""Campaign"",""Price subsidy from brand"",""Price subsidy from platform"",""Conditions on contract"",""Hot deal for campaign"",""Clearance""]",2021-01-21 07:53:41,2021-01-21 07:53:41
+7,onpoint.compensate.root_causes,"[""Do Brand cung cấp thông tin không chính xác"",
+""Do cảm nhận của khách hàng"",
+""Do chương trình khuyến mãi hết quà tặng"",
+""Do CS tư vấn thông tin không chính xác"",
+""Do đơn hàng không đủ điều kiện nhận quà"",
+""Do đơn vị vận chuyển lấy/tráo hàng"",
+""Do hết hàng thực tế"",
+""Do KAM/MER set up thông tin không chính xác"",
+""Do khách hàng gian lận"",
+""Do khách tìm hiểu thông tin không chính xác"",
+""Do lỗi Fulfilment by Onpoint"",
+""Do lỗi Fulfilment by Platform"",
+""Do lỗi hệ thống Platform"",
+""Do lỗi hệ thống Vincolum"",
+""Do lỗi kiểm tra sản phẩm từ khâu Inbound"",
+""Do lỗi listing sản phẩm khi tạo bundle"",
+""Do lỗi Mapping/ Channel Link"",
+""Do lỗi QC từ khâu Inbound"",
+""Do lỗi quá trình OP bảo quản không đảm bảo điều kiện"",
+""Do lỗi thao tác khách hàng"",
+""Do lỗi thao tác tạo đơn hàng"",
+""Do lỗi tool/flexi combo của Platform"",
+""Do lỗi từ nhà vận chuyển"",
+""Do lỗi xác nhận đơn hàng"",
+""Do Onpoint đăng tải thông tin không chính xác"",
+""Do Onpoint xử lí đơn hàng chậm"",
+""Do sản phẩm hỏng/hết hạn sử dụng"",
+""Do sản phẩm set sai giá từ Onpoint"",
+""Do sản phẩm set sai giá từ Platform"",
+""Do sản phẩm thiếu phụ kiện"",
+""Do shipper không tới lấy hàng"",
+""Do thao tác set sai giá từ Onpoint"",
+""Hủy có chủ đích do khách hàng gian lận"",
+""Thông tin vận chuyển điền không chính xác tại platform"",
+""Do khách hàng thao tác không chính xác"",
+""Do khách hàng không phù hợp để sử dụng"",
+""Do lỗi Fulfilment by Keppel"",
+""Không liên hệ được khách hàng"",
+""Do lỗi khâu đóng gói từ Brand"",
+""Do lỗi System cài đặt""]",2021-02-18 04:37:19,2021-02-18 04:37:19
+8,coe.google_oauth2.target_email,"{""19"": [""nghi.nguyen@onpoint.vn""], ""21"": [""nghi.nguyen@onpoint.vn""], ""5"": [""nghi.nguyen@onpoint.vn""]}",2021-04-14 07:45:41,2021-04-14 07:45:41
+9,coe.google_oauth2.refresh_token,1//0gus71RAgEWk4CgYIARAAGBASNwF-L9IrQI_2n_9hf1wNPpjKZSRXDUCfHSpMPUEuGS5wNW7VGM7pYvg6KwPDobxYtDl0TR7M8J4,2021-04-15 03:33:32,2021-05-14 07:53:18
+10,onpoint.pricing.change_selling_price_failed_emails,"[""nghi.nguyen@onpoint.vn"", ""vuquyen.nguyen@onpoint.vn"", ""nguyen.pham@onpoint.vn""]",2021-04-29 08:59:37,2021-04-29 08:59:37
+31,oms.email.receive_warning_odf_failed_to_cancel,"[""dung.nguyen@onpoint.vn"", ""nghi.nguyen@onpoint.vn""]",2021-05-14 08:06:49,2021-05-14 08:06:49
+32,opollo_landing.vnpay.api_endpoint,http://sandbox.vnpayment.vn/paymentv2/vpcpay.html,2021-05-27 09:06:52,2021-05-27 09:06:52
+34,oms:calculate_unpaid:excluded_channel_codes,"[""LZDCEU""]",2021-06-21 03:50:02,2021-06-21 03:50:02
+35,opollo_background_job.haravan.default_from_email,hoangquan.nguyen@onpoint.vn,2021-06-21 15:05:38,2021-06-21 15:05:38
+36,opollo_background_job.lvn.default_from_email,"phuong.vo@loreal.com,toan.nguyenduc@loreal.com,khanh.nguyenthihoang@loreal.com,hanh.nguyen@loreal.com,Tram.LUU@loreal.com,quang.phung@loreal.com,nguyen.le@loreal.com,hang.pham@loreal.com,ngoctran.tran@loreal.com,tram.le@loreal.com,ngan.bach@loreal.com,thutrang.nguyen@loreal.com,thuan.nguyen@loreal.com,techforwarder@onpointspaces.com",2021-07-02 03:55:16,2021-07-02 03:55:16
+37,opollo_admin.ldp.max_length_products_ui_builder,9,2021-07-11 02:25:38,2021-07-11 02:25:38
+38,lvn.email.when_mapping_wh_code_incorrect,"{""is_sent"": false,""recipient_emails"": """"}",2021-07-29 09:21:15,2021-07-29 09:21:15
+39,haravan.sending_reconcile.type,query_from_database,2021-08-04 11:46:00,2021-08-04 11:46:00
+40,onpoint.bundle_request.report_link,https://forms.clickup.com/f/3jfxr-824/PDJ7NLKL1RME4JJJIU,2021-08-19 06:11:57,2021-08-19 06:11:57
+41,warehouse.lockdown.config,"{""start_date_utc"":""2021-09-07T17:00:00.000Z"",""end_date_utc"":""2021-09-09T16:59:59.999Z"",""channel_codes"":""LZDNES"",""lockdown_provinces"":""Bình Dương,Bình Phước,Đồng Nai,Cần Thơ,Tây Ninh,Bà Rịa Vũng Tàu,Đà Nẵng""}",2021-09-08 08:59:42,2021-09-08 08:59:42
+42,onpoint.dpms.enabled_day_stream_to_google,"{
+""monday"": 1,
+""thusday"": 4,
+""friday"": 5,
+""saturday"": 6,
+""sunday"": 7
+}",2021-09-22 08:13:39,2021-09-22 08:13:39
+43,lvn.email.when_error_send_lvn,"{""is_sent"": false,""recipient_emails"": """"}",2021-09-22 11:25:54,2021-09-22 11:25:54
+44,coe:google_oauth2:access_token,ya29.A0ARrdaM-Bg5H6mdtTRZeEAPlAnJXi17irNx2vkbM9fCzFK8lq02lBJgyCXZBX1UM4pCrA_oO-Foj610FbJSpwxJbTWz3MKxY0Ih5h_23Y3bdDOClnXclxRNfhTW-M_2V4sOD_t8tPdPNRG_SXBkEePr7Er0lKiMY,2021-09-24 05:36:51,2021-09-24 05:36:51
+45,warehouse.hold_outbound_config,"[{""payment_methods"":[""cod""],""channels"":[{""channel_code"":""LDPVBA"",""warehouse_code"":""OP_HAFELE""}],""items"":[{""quantity"":1,""product_sku"":""91205381""}]}, {""channels"": [{""channel_code"": ""LDP3""}], ""order_addresses"": {""contains"": ["" aa""]}}]",2021-11-15 14:18:21,2021-11-15 14:18:21
+46,coe.v2.google_oauth2.refresh_token,1//0goc1BKQjvKgoCgYIARAAGBASNwF-L9IrStodElWvjH9Ud09xVNpr0PA_NjiZ83PTYMSKcWxDLixCh58G3xK4sr97wNmcu5FX-RA,2021-11-29 08:25:45,2022-03-03 07:10:30
+47,coe:v2:google_oauth2:access_token,ya29.A0ARrdaM-O-QIN5z_GoLA3iTRKIV8Y3CwMni3JO-SFTxx-0-B-vQ7i4vAr1YGypAbfKKlf4PwWY3VqcQcbfd0wgkG8GScUd6IJqXtmnBoxOKpPkNyAA8-Q9ANB1GGHaxrENMQQCMZWeo5t2UKByApoeAKBjbjmwYk,2021-12-09 14:00:26,2021-12-09 14:00:26
+48,onpoint.opollo_background_job.pulling_order_retention_days,7,2022-01-20 01:57:17,2022-01-20 01:57:17
+49,ims.vinculum_centralize_inventory_config,"{""b2b_sellable_bin_locs"":[""B2B"",""SHISEIDO-KP-LOCK"",""FONTERRA-KP-LOCK""],""site_locations"":[""KLW"",""MOI"",""GHN""],""virtual_bin_locs"":[""SHOPBOSCH"",""TIKI""]}",2022-03-29 05:29:30,2022-03-29 05:29:30
+50,ims.pulling_date_range_config,30,2022-04-04 04:03:49,2022-04-04 04:03:49
+52,lvn:reconcile:to_recipients,,2022-04-26 03:42:24,2022-04-26 03:42:24
+53,lvn:reconcile:cc_recipients,,2022-04-26 03:42:24,2022-04-26 03:42:24
+54,haravan:lvn:to_default,tram.luu@loreal.com,2022-04-26 03:42:24,2022-04-26 03:42:24
+55,haravan:lvn:cc_default,"duyminh.nguyen@onpoint.vn,thuynga.nguyen@yopmail.com,tin.huynh@onpoint.vn,thuynga.nguyen@onpoint.vn",2022-04-26 03:42:24,2022-04-26 03:42:24
+56,recipient_not_matching_platform_warehouse_email,system.alert@onpoint.vn,2022-04-26 04:41:59,2022-04-26 04:41:59
+57,onpoint.product_visibility_controls.inactive_duration,3,2022-05-17 04:12:58,2022-05-17 04:12:58
+58,onpoint.product_visibility_controls.active_duration,7,2022-05-17 04:12:58,2022-05-17 04:12:58
+59,opollo_api.onpoint.receive_email_feedback,"[""hien.nguyen@onpoint.vn"",""long.le@onpoint.vn"",""phuongnam.tran@onpoint.vn""]",2022-05-25 17:13:27,2022-05-25 17:13:27
+60,crm:chatbot:delay_time,10,2022-06-03 03:57:03,2022-06-03 03:57:03
+61,onpoint.tax_code,0314709816,2022-06-14 10:05:52,2022-06-14 10:05:52
+62,shopee.shipping_provider_types.instant,"[""Shopee Xpress Instant"", ""GrabExpress"", ""beDelivery"",""AhaMove""]",2022-06-18 07:31:40,2022-06-18 07:31:40
+63,ghn_express_packing_default,"{""weight"": 1500,""height"":20,""length"":20,""width"":20,""insurance_price_default"":500000}",2022-06-23 03:54:55,2022-06-23 03:54:55
+64,hermes.topic_info,"{
+  ""credential"": ""org-opollo.org.channel_credentials"",
+  ""thread"": ""org-opollo.im.threads"",
+  ""message"": ""org-opollo.im.messages"",
+  ""rabbit-credential"": ""hermes-opollo-channel-credentials"",
+  ""rabbit-thread"": ""hermes-opollo-threads"",
+  ""rabbit-message"": ""hermes-opollo-messages""
+}",2022-06-23 07:26:04,2022-06-23 07:26:04
+65,opollo_landing.config.shop,"{
+  ""momo_access_key"": """",
+  ""momo_secret_key"": """",
+  ""momo_ipn_url"": """",
+  ""momo_webview_url"": """",
+  ""momo_api_endpoint"": """",
+  ""momo_partner_code"": """",
+  ""momo_description"": ""Ví Momo"",
+  ""momo_name"": ""Momo"",
+  ""baokim_access_key"": """",
+  ""baokim_secret_key"": """",
+  ""baokim_ipn_url"": """",
+  ""baokim_webview_url"": """",
+  ""baokim_api_endpoint"": """",
+  ""baokim_partner_code"": """",
+  ""baokim_description"": ""Cổng thanh toán Bảo Kim"",
+  ""baokim_name"": ""Bao Kim"",
+  ""cod_access_key"": """",
+  ""cod_secret_key"": """",
+  ""cod_ipn_url"": """",
+  ""cod_webview_url"": """",
+  ""cod_api_endpoint"": """",
+  ""cod_partner_code"": """",
+  ""cod_description"": ""Thanh toán khi nhận hàng"",
+  ""cod_name"": ""COD"",
+  ""vnpay_tmn_code"": """",
+  ""vnpay_hash_secret"": """",
+  ""vnpay_name"": ""VNPAY"",
+  ""vnpay_description"": ""VNPAY""
+  }",2022-06-23 08:34:26,2022-06-23 08:34:26
+66,shopee.shipping_carriers.seller_delivery,"[""Người bán tự vận chuyển""]",2022-06-30 10:54:44,2022-06-30 10:54:44
+67,hermes.org_key,opollo,2022-07-14 04:18:30,2022-07-14 04:18:30
+77,vault_sent_email_verify,{},2022-08-11 15:59:04,2022-08-11 15:59:04
+78,opollo_background_job:email:notification_sync_fail:receiver_email,,2022-08-11 15:59:04,2022-08-11 15:59:04
+79,opollo_core:email:notification_expires_token,,2022-08-11 15:59:04,2022-08-11 15:59:04
+80,opollo:oms:active_product_failed:receivers,my.nguyen@onpoint.vn;vuquyen.nguyen@onpoint.vn,2022-08-11 15:59:04,2022-08-11 15:59:04
+81,opollo:oms:inactive_product_failed:receivers,my.nguyen@onpoint.vn;vuquyen.nguyen@onpoint.vn;minhquang.nguyen@onpoint.vn,2022-08-11 15:59:04,2022-08-11 15:59:04
+82,opollo_core:email:compensate:audience,,2022-08-11 15:59:04,2022-08-11 15:59:04
+83,ghn_express:order:recipients_email,,2022-08-11 15:59:04,2022-08-11 15:59:04
+84,warehouse:outbound:holder_recipients_email,,2022-08-11 15:59:04,2022-08-11 15:59:04
+85,crm:sku_rating:auto_reply_config,"{""replier_id"": null,""concern_id"": null}",2022-08-11 15:59:04,2022-08-11 15:59:04
+86,pre_approve_config,"{""check_budget"": true}",2022-08-25 17:23:19,2022-08-25 17:23:19
+87,group_brands_apply_budget_for_po_b2b_type,"[""FONTERRA""]",2022-08-25 17:23:19,2022-08-25 17:23:19
+88,onpoint.opollo_background_job.pulling_transaction_retention_days,15,2022-09-06 09:48:18,2022-09-06 09:48:18
+89,pcms.failed_deactivated_product_email_frequency,14400,2022-09-25 16:33:23,2022-09-25 16:33:23
+90,opollo.pms.time_to_process_products_seconds,86400,2022-10-06 07:32:24,2022-10-06 07:32:24
+91,spms.spms_sku_class,"B,C",2022-11-01 02:00:08,2023-07-01 02:11:30
+92,spms.calculate_by_platform_group_brand_codes,ACCOJE,2022-11-09 10:54:47,2022-11-09 10:54:47
+93,spms.apply_group_brands,all,2022-11-23 09:04:08,2022-11-23 09:04:08
+94,octopos.hold_outbound_when_missing_sla_platforms,"[""lazada"", ""shopee""]",2022-11-29 02:32:12,2022-11-29 02:32:12
+95,tiki_tnsl_max_duration_booking_timeslot,"{""min_date_range"": 7, ""max_date_range"": 14}",2023-01-05 02:37:33,2023-01-05 02:37:33
+96,lazada.shipping_allocate_type,TFS,2023-02-20 02:34:30,2023-02-20 02:34:30
+97,shopee_shop_enable_production_environment,[7903401],2023-03-21 08:36:08,2023-03-21 08:36:08
+98,list_redis_keys_need_delete,"[""process_message_to_chatbot_stream"", ""pull_message_stream"", ""set_persistent_menu_stream"", ""chatbot_message_stream"", ""update_conversation_stream"", ""cart_stream"", ""pull_detail_conversation_stream"", ""hermes.auto_reply_messages""]",2023-03-22 06:07:30,2023-03-22 06:07:30
+100,system.org.pms.product,"{""hide_ids"":[""pms_wh_vinculum""]}",2023-04-12 03:00:55,2023-04-12 03:00:55
+101,system.org.cms.channels,"{""hide_ids"": {""lazada"": [""cms_wh_warehouse_code"",""cms_wh_telegram_chat_id"",""cms_wh_telegram_token_bot"",""cms_ecom_warehouse_name"",""cms_ecom_warehouse_code"",""cms_ecom_shipping_provider""]}}",2023-04-13 08:58:42,2023-04-13 08:58:42
+102,system.org.crm.live_chat,"{""hide_ids"":[""""]}",2023-04-19 06:05:44,2023-04-19 06:05:44
+103,system.org.crm.ticket,"{""hide_ids"":[""""]}",2023-04-19 06:05:44,2023-04-19 06:05:44
+104,oms.b2b_auto_return.suggest_reason_list,"[""Damage Box"", ""Expiration Date""]",2023-04-20 02:20:33,2023-04-20 02:20:33
+106,oms.onpoint_infomation_default,"{""country"": ""VN"", ""contact_name"": ""Onpoint"", ""company_name"": ""Công ty TNHH OnPoint"", ""address"": ""27B Nguyen Dinh Chieu St., Da Kao Ward, District 1, HCMC"", ""phone"": ""(+84) 028 73056686"", ""province_id"": 1, ""district_id"": 20, ""subdistrict_id"": 643}",2023-05-19 02:26:31,2023-05-19 02:26:31
+107,pms:categories:boxme_configs_require_expire,"{""HL"": {""ob_strategy"": ""FEFO"", ""require_expire"": 1, ""expiry_threshold"": 60}, ""GF"": {""ob_strategy"": ""FEFO"", ""require_expire"": 1, ""expiry_threshold"": 60}, ""MB"": {""ob_strategy"": ""FEFO"", ""require_expire"": 1, ""expiry_threshold"": 60}, ""HB"": {""ob_strategy"": ""FEFO"", ""require_expire"": 1, ""expiry_threshold"": 180}}",2023-05-25 09:54:00,2023-05-25 09:54:00
+108,system.org.oms.b2c,"{""hide_ids"":[""b2c_onpoint_source""]}",2023-07-06 09:16:58,2023-07-06 09:16:58

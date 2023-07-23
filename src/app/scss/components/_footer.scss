@@ -1,0 +1,17 @@
+.footer__wrapper {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid $icon-color;
+  .footer__content {
+    text-align: center;
+    p {
+      color: $grey-color;
+      span {
+        color: $blue-color;
+      }
+    }
+  }
+}
