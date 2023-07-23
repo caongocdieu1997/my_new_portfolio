@@ -2,7 +2,6 @@ import React, { MutableRefObject } from "react";
 import emailjs from "@emailjs/browser";
 import { AiOutlineSend } from "react-icons/ai";
 import { HiHome, HiPhone, HiMail } from "react-icons/hi";
-import GoogleMapReact from "google-map-react";
 
 interface Props {
   text: string;
