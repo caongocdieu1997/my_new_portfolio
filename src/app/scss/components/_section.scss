@@ -5,4 +5,10 @@ section {
 
 #home {
   height: 100vh;
+  @include for-tablet {
+    height: 100%;
+  }
+  @include for-phone {
+    height: 100%;
+  }
 }

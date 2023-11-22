@@ -12,7 +12,7 @@ const Section = forwardRef(function Section(props: Props, ref) {
   return (
     // @ts-ignore
     <div ref={ref}>
-      <section id="home" style={{ height: "100vh" } as React.CSSProperties}>
+      <section id="home">
         <HomeSection />
       </section>
       <section id="about" style={{} as React.CSSProperties}>

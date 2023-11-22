@@ -115,7 +115,7 @@ const Contact = () => {
                 } py-10`}
                 type="submit"
               >
-                <span>Send</span>
+                <span>Send </span>
                 <AiOutlineSend />
               </button>
             </form>
