@@ -4,7 +4,7 @@ import linkedinIcon from "./linkedin_icon.png";
 import facebookIcon from "./facebook_icon.png";
 import githubIcon from "./github_icon.svg";
 import iconLoading from "./buffalo_loading.svg";
-import person_header from "./person_header.jpeg";
+import person_header from "./person_header.jpg";
 import aboutImg from "./about_img.jpeg";
 import htmlIcon from "./html_icon.svg";
 import cssIcon from "./css_icon.svg";
