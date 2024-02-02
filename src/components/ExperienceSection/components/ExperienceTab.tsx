@@ -42,9 +42,9 @@ const ExperienceTab = ({
               Tech:
               {techList.map((tech, index) => {
                 return (
-                  <>
-                    &nbsp;<span key={index}>{tech}</span>&nbsp;
-                  </>
+                  <React.Fragment key={index}>
+                    &nbsp;<span>{tech}</span>&nbsp;
+                  </React.Fragment>
                 );
               })}
             </p>

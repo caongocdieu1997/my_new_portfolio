@@ -115,8 +115,7 @@ const Contact = () => {
                 } py-10`}
                 type="submit"
               >
-                <span>Send </span>
-                <AiOutlineSend />
+                <span>Send </span> <AiOutlineSend />
               </button>
             </form>
             {success && <div className="contact_success">{success}</div>}

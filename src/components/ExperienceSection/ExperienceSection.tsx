@@ -65,9 +65,8 @@ const ExperienceSection = () => {
           <div className="col c-12 m-12 t-12 experience_tab-wrapper ">
             {experienceTabList.map((item) => {
               return (
-                <>
+                <React.Fragment key={item.id}>
                   <ExperienceTab
-                    key={item.id}
                     startTime={item.startTime}
                     endTime={item.endTime}
                     company={item.company}
@@ -75,7 +74,7 @@ const ExperienceSection = () => {
                     content={item.content}
                     techList={item.techList}
                   />
-                </>
+                </React.Fragment>
               );
             })}
           </div>

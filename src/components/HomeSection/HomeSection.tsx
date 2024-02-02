@@ -42,7 +42,7 @@ const HomeSection = (props: Props) => {
                 </p>
               </div>
               <div className="home__introduce-content">
-                <p style={{ color: "transparent" }}>
+                <p style={{ color: "transparent", userSelect: "none" }}>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit minima aperiam fuga accusantium reprehenderit enim animi
                   praesentium in vero ducimus. Assumenda dolore, dolores

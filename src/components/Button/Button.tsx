@@ -6,7 +6,6 @@ interface Props {
 }
 
 const Button = ({ children, ...props }: Props) => {
-  console.log({ ...props });
   return (
     <a {...props} className="primary__button">
       <span>{children}</span>

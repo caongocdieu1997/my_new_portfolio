@@ -19,7 +19,7 @@ const AboutSection = () => {
               </div>
               <div className="about__left-content">
                 <p>
-                  I have had over 4 years working experience in software
+                  I have had over 5 years working experience in software
                   development. I am passionate about learning new technologies
                   to increase the quality of my work and I always look forward
                   to sharing my knowledge with the members of the company. Hope
