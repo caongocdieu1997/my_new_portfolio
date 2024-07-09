@@ -50,7 +50,7 @@ const HomeSection = (props: Props) => {
                 </p>
               </div>
               <div className="home__introduce-button">
-                <Button>Download MyCv</Button>
+                <button className="primary__button">Download MyCv</button>
               </div>
             </div>
           </div>
