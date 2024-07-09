@@ -1,12 +1,10 @@
 import "./scss/main.scss";
 import { Inter } from "next/font/google";
 
-import Head from "next/head";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Cao Ngoc Dieu",
+  title: "Cao Ngọc Diệu",
   description: "Ngọc Diệu Front-End Dev",
   icons: {
     icon: "/favicon.ico",
