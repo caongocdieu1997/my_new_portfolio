@@ -16,8 +16,25 @@ const ExperienceSection = () => {
   const experienceTabList: Tab[] = [
     {
       id: 1,
-      startTime: "Mar 2022",
+      startTime: "July 2023",
       endTime: "Present",
+      company: "N&H Logistics",
+      position: "Front end Developer",
+      content:
+        "Create a web app to manage Order, Channels ... .In addition, I also support warehouse management web app development",
+      techList: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "ReactJS",
+        "ReactQuery",
+      ],
+    },
+    {
+      id: 2,
+      startTime: "Mar 2022",
+      endTime: "July 2023",
       company: "OnPoint E-commerce",
       position: "Full Stack Developer",
       content:
@@ -35,7 +52,7 @@ const ExperienceSection = () => {
       ],
     },
     {
-      id: 2,
+      id: 3,
       startTime: "Aug 2018",
       endTime: "Mar 2022",
       company: "Ryomo Vietnam Solutions Co., Ltd",
@@ -45,7 +62,7 @@ const ExperienceSection = () => {
       techList: ["HTML", "CSS", "Javascript", "ReactJS", "Java", "Oracle"],
     },
     {
-      id: 3,
+      id: 4,
       startTime: "Jan 2018",
       endTime: "Mar 2018",
       company: "Xtek Asia",

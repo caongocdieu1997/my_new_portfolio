@@ -7,8 +7,6 @@ interface Props {
   text: string;
 }
 
-const AnyReactComponent = ({ text }: Props) => <div>{text}</div>;
-
 const Contact = () => {
   // @ts-ignore
   const form = React.useRef<HTMLFormElement>("");
@@ -43,18 +41,13 @@ const Contact = () => {
         form?.current,
         "RK6z4LNTb1MLYa2Ep"
       )
-      .then(
-        (result) => {
-          setSuccess("Thank you to your contact");
-          setIsLoading(false);
-          setTimeout(() => {
-            setSuccess("");
-          }, 5000);
-        },
-        (error) => {
-          setError("Oops!! Something went wrong");
-        }
-      )
+      .then((result) => {
+        setSuccess("Thank you to your contact");
+        setIsLoading(false);
+        setTimeout(() => {
+          setSuccess("");
+        }, 5000);
+      })
       .finally(() => {
         setIsLoading(false);
       });
