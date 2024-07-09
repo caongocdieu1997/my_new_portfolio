@@ -89,18 +89,31 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail} className="contact__form">
               <div className="form__input">
                 <label>Name</label>
-                <input ref={userName} type="text" name="user_name" />
+                <input
+                  ref={userName}
+                  type="text"
+                  name="user_name"
+                  placeholder="Input name"
+                />
                 {validateName && (
                   <div className="error_message">{validateName}</div>
                 )}
               </div>
               <div className="form__input">
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Input email"
+                />
               </div>
               <div className="form__input">
                 <label>Message</label>
-                <textarea ref={message} name="message" />
+                <textarea
+                  ref={message}
+                  name="message"
+                  placeholder="Input message"
+                />
               </div>
               <button
                 className={`primary__button ${
@@ -116,6 +129,7 @@ const Contact = () => {
 
           <div className="google__wrapper">
             <iframe
+              title="Cao Ngoc Dieu Home Town"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6514414265894!2d106.6664855907268!3d10.837963861763079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529abcfd012d3%3A0x8b7cd7b29784eb3f!2zTE9UVEUgTWFydCBHw7IgVuG6pXA!5e0!3m2!1svi!2s!4v1690123489249!5m2!1svi!2s"
               width="100%"
               height="100%"

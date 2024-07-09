@@ -13,7 +13,11 @@ const HomeSection = (props: Props) => {
           <div className="col c-7 t-12 m-12 home__left">
             <div className="home__icons">
               <div className="home__icon-item">
-                <a target="_blank" href="https://github.com/caongocdieu1997">
+                <a
+                  target="_blank"
+                  href="https://github.com/caongocdieu1997"
+                  aria-label="Visit Cao Ngoc Dieu github"
+                >
                   <BsGithub size={30} />
                 </a>
               </div>
@@ -21,6 +25,7 @@ const HomeSection = (props: Props) => {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/di%E1%BB%87u-cao-779a98222/"
+                  aria-label="Visit Cao Ngoc Dieu linkedin"
                 >
                   <BsLinkedin size={30} />
                 </a>
@@ -29,6 +34,7 @@ const HomeSection = (props: Props) => {
                 <a
                   target="_blank"
                   href="https://www.facebook.com/dieu.cao.716/"
+                  aria-label="Visit Cao Ngoc Dieu facebook"
                 >
                   <BsFacebook size={30} />
                 </a>
