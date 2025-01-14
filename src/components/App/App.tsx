@@ -23,6 +23,8 @@ const App = () => {
     window.addEventListener("scroll", handleChangeMenu);
   }
 
+  console.log(1111111);
+
   function handleChangeMenu() {
     const listSection = refSection.current?.querySelectorAll("section") || [];
     const links = refLink.current?.querySelectorAll("a") || [];
